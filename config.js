@@ -17,11 +17,18 @@ global.APIKeys = {
 	'https://zenzapis.xyz': 'Your Key',
 }
 
+// Apikey Website Api
+global.APIKeys = {
+	'https://zenzapis.xyz': '2a840e963e',
+}
+
 // Other
-global.owner = ['6283167714830','6281382420312','6288292024190']
-global.premium = ['6288292024190']
-global.packname = 'Hisoka Morrow'
-global.author = 'WhatsApp Bot'
+global.owner = ['62895347198105']
+global.premium = ['62895347198105']
+global.namaowner = ['ArifXyZz']
+global.namabot = ['RifBotZ']
+global.packname = 'Created By ArifXyzzr'
+global.author = 'RifBotZ'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
@@ -43,7 +50,7 @@ global.limitawal = {
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')
 global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
 
-let file = require.resolve(__filename)
+let file = require.resolve(_jsusi_filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
